@@ -1,4 +1,3 @@
-import './index';
+import '.';
 
-test('Jest should work', () => {
-});
+test('Jest should work', () => {});

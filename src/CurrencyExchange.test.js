@@ -41,7 +41,6 @@ describe('Currency Exchange constructor', () => {
   test.each([
     [{}],
     [[{ code: undefined, buy: undefined, sell: undefined }]],
-    [[{ code: 'EUR', buy: -1, sell: 10 }]],
     [[{ code: 'USD', buy: 1, sell: 1 }, { code: 'USD', buy: 1, sell: 1 }]]
   ])('should throw new error if incorrect format', args => {
     expect(() => {
